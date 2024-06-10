@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventory - Car Showroom</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background: url('https://via.placeholder.com/1920x1080') no-repeat center center fixed;
+            background-size: cover;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        header {
+            background: rgba(51, 51, 51, 0.8);
+            color: #000000;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77d5d5 3px solid;
+        }
+        header a {
+            color: #000000;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        #showcase {
+            min-height: 200px;
+            background: #f2f0f0;
+            color: #000000;
+            text-align: center;
+            padding: 50px 0;
+        }
+        #showcase h1 {
+            margin-top: 20px;
+            font-size: 55px;
+            margin-bottom: 10px;
+        }
+        #showcase p {
+            font-size: 20px;
+        }
+        .main-content {
+            padding: 20px;
+            background: #fff;
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+        .main-content h2 {
+            color: #333;
+        }
+        .inventory-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+            list-style-type: none;
+            padding: 0;
+        }
+        .inventory-list li {
+            background: #fff;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .inventory-list img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        .inventory-list h3 {
+            margin: 10px 0 5px;
+        }
+        .inventory-list p {
+            margin: 0;
+        }
+        footer {
+            background: rgba(51, 51, 51, 0.8);
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Car Showroom</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="1.html">Home</a></li>
+                    <li><a href="inventory.html">Inventory</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="shipping-returns.html">Shipping & Returns</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="showcase">
+        <div class="container">
+            <h1>Our Inventory</h1>
+            <p>Browse our wide selection of vehicles</p>
+        </div>
+    </section>
+
+    <section class="main-content">
+        <div class="container">
+            <h2>Available Cars</h2>
+            <ul class="inventory-list">
+                <li>
+                    <a href="1.html">
+                    <img src="https://www.team-bhp.com/sites/default/files/styles/check_high_res/public/2018-rolls-royce-phantom-first-drive%20(1).jpg" alt="Rolls Royce Phantom VIII">
+                    </a>
+                    <h3>Rolls Royce Phantom VIII</h3>
+                    <p>$450,000</p>
+                </li>
+                <li>
+                    <a href="1.html">
+                    <img src="https://stat.overdrive.in/wp-content/uploads/2021/06/2021-Tesla-Model-S-Plaid-4.jpg" alt="2021 Tesla Model S">
+                   </a>
+                    <h3>2021 Tesla Model S</h3>
+                    <p>$89,990</p>
+                </li>
+                <li>
+                    <a href="1.html"></a>
+                    <img src="https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=https://cdni.autocarindia.com/ExtraImages/20180716034142_Jaguar-F-TYPE-2.0-l--Coupe.jpg&w=700&c=1" alt="Jaguar F-TYPE">
+                    </a>
+                    <h3>Jaguar F-TYPE</h3>
+                    <p>$79,990</p>
+                </li>
+                <li>
+                    <a href="1.html"></a>
+                    <img src="https://www.topgear.com/sites/default/files/2024/04/20-Aston-Martin-DB12-Volante-review-2024.jpg" alt="Aston Martin DB12">
+                    </a>
+                    <h3>Aston Martin DB12</h3>
+                    <p>$200,000</p>
+                </li>
+                <li>
+                    <a href="1.html"></a>
+                    <img src="https://cdn.motor1.com/images/mgl/Oo3OzL/s1/one-of-one-bentley-continental-gt-speed.webp" alt="Bentley Continental">
+                    </a>
+                    <h3>Bentley Continental</h3>
+                    <p>$79,990</p>
+                </li>
+                <li>
+                    <a href="1.html"></a>
+                    <img src="https://bringatrailer.com/wp-content/uploads/2021/03/2017_ferrari_488_gtb_1620972242f3b2253e7DES01848-scaled-e1621298444302.jpg?fit=940%2C627" alt="Ferrari 488 GTB">
+                    </a>
+                    <h3>Ferrari 488 GTB</h3>
+                    <p>$262,647</p>
+                </li>
+                <li>
+                    <a href="1.html"></a>
+                    <img src="https://cdni.autocarindia.com/ExtraImages/20210713115737_Buying_Used_Swift_1.jpg" alt="Lamborghini Aventador">
+                    </a>
+                    <h3>Swift</h3>
+                    <p>$393,695</p>
+                </li>
+                <li>
+                    <a href="1.html"></a>
+                    <img src="https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=https://cdni.autocarindia.com/ExtraImages/20140501044626_bmw-i8-first-00122.jpg" alt="Porsche 911">
+                    </a>
+                    <h3>BMW i8</h3>
+                    <p>$99,200</p>
+                </li>
+                <li>
+                    <a href="1.html"></a>
+                    <img src="https://cdn.motor1.com/images/mgl/pb74WW/s3/bmw-x5-m-mhx5-700-by-manhart.jpg" alt="Porsche 911">
+                    </a>
+                    <h3>BMW X5 M</h3>
+                    <p>$99,200</p>
+                </li>
+                <li>
+                    <a href="1.html"></a>
+                    <img src="https://vehicle-images.dealerinspire.com/f8ab-18003747/WBSAE0C01PCL07499/4c5759f403707485edc47abc27350ea1.jpg" alt="Porsche 911">
+                    </a>
+                    <h3>BMW M8</h3>
+                    <p>$99,200</p>
+                </li>
+                <li>
+                    <a href="1.html"></a>
+                    <img src="https://stat.overdrive.in/wp-content/uploads/2022/05/P90462503_highRes_the-new-bmw-3-series.jpg" alt="Porsche 911">
+                    </a>
+                    <h3>bmw 3 series</h3>
+                    <p>$99,200</p>
+                </li>
+                <li>
+                    <a href="1.html"></a>
+                    <img src="https://www.carscoops.com/wp-content/uploads/2020/06/Mercedes-G-Class-4x4-1a.jpg" alt="Porsche 911">
+                    </a>
+                    <h3>Mercedes-Benz G-Class</h3>
+                    <p>$99,200</p>
+                </li>
+                <li>
+                    <a href="1.html"></a>
+                    <img src="https://www.slashgear.com/img/gallery/2023-mercedes-benz-eqs-suv-review-electric-luxury-knows-what-matters/l-intro-1671123335.jpg" alt="Porsche 911">
+                    </a>
+                    <h3>Benz EQS SUV</h3>
+                    <p>$99,200</p>
+                </li>
+                <li>
+                    <a href="1.html"></a>
+                    <img src="https://cdni.autocarindia.com/ExtraImages/20210525124444_New_Mercedes_AMG_GLA_35.jpg" alt="Porsche 911">
+                    </a>
+                    <h3>Benz GLA</h3>
+                    <p>$99,200</p>
+                </li>
+                <li>
+                    <a href="1.html"></a>
+                    <img src="https://cdn.motor1.com/images/mgl/G6KK1/s1/4x3/2021-audi-s3-sportback-by-abt.webp" alt="Porsche 911">
+                    </a>
+                    <h3>Audi S3</h3>
+                    <p>$99,200</p>
+                </li>
+                <li>
+                    <a href="1.html"></a>
+                    <img src="https://www.motortrend.com/uploads/2023/08/7577-2024-Audi-SQ7-front-view.jpg?fit=around%7C875:492" alt="Porsche 911">
+                    </a>
+                    <h3>Audi Q7</h3>
+                    <p>$99,200</p>
+                </li>
+                <li>
+                    <a href="1.html"></a>
+                    <img src="https://static0.topspeedimages.com/wordpress/wp-content/uploads/2023/09/resize_2024-ford-f-150-raptor_11.jpg" alt="Porsche 911">
+                    </a>
+                    <h3>Ford F-150</h3>
+                    <p>$99,200</p>
+                </li>
+                <li>
+                    <a href="1.html"></a>
+                    <img src="https://www.netradicnizazitky.cz/image-cache/www_media_product-images_2025_image_349-mustang-1_1920x1276.jpg?1672991258" alt="Porsche 911">
+                    </a>
+                    <h3>Ford Mustang GT</h3>
+                    <p>$99,200</p>
+                </li>
+                <li>
+                    <a href="1.html"></a>
+                    <img src="https://cdni.autocarindia.com/Stuff/Uploads/ReviewImages/637883778429275188_tata-nexon-ev-max-review-1.jpg" alt="Porsche 911">
+                    </a>
+                    <h3>Tata Nexon EV Max</h3>
+                    <p>$99,200</p>
+                </li>
+                <li>
+                    <a href="1.html"></a>
+                    <img src="https://stimg2.cardekho.com/images/carNewsimages/userimages/650X420/31602/1697708401023/CarPrices.jpg " alt="Porsche 911">
+                    </a>
+                    <h3>Tata Safari</h3>
+                    <p>$99,200</p>
+                </li>
+
+                
+                <!-- Add more car listings as needed -->
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <p>Car Showroom &copy; 2024</p>
+    </footer>
+</body>
+</html>

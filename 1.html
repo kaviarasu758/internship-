@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Comic Sans MS;
+            margin: 0;
+            padding: 0;
+            background-color: hsl(0, 3%, 22%); 
+        }
+        .hero {
+            background-image: url('https://resize.indiatvnews.com/en/resize/newbucket/1200_-/2021/06/luxury-ride1-1624981533.jpg');
+            background-size: cover;
+            background-position: center;
+            color: rgb(243, 239, 239);
+            text-align: center;
+            padding: 100px 20px;
+        }
+        .hero h1 {
+            font-size: 50px;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 24px;
+        }
+        .hero .cta-button {
+            background-color: #ff4081;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-size: 18px;
+            margin-top: 20px;
+            display: inline-block;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #333;
+            padding: 10px 20px;
+            color: white;
+        }
+        
+        .logo {
+            font-size: 24px;
+            font-style: italic;
+            text-align: center;
+            flex: 1;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 20px;
+        }
+        nav ul li {
+            display: inline;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        header {
+            background: rgba(51, 51, 51, 0.8);
+            color: #000000;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77d5d5 3px solid;
+        }
+        header a {
+            color: #000000;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        .container {
+            padding: 20px;
+            background-color: #ffffff; /* White background for the container */
+        }
+        .section-title {
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+        .grid {
+            display: grid;
+            gap: 20px;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        }
+        .grid img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .cta-button-small {
+            background-color: #f7f7f7;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-size: 16px;
+            margin-top: 10px;
+            display: inline-block;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .footer a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .logo-container {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Car Showroom</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="1.html">Home</a></li>
+                    <li><a href="Inventory.html">New Arrivals</a></li>
+                    <li><a href="inventory.html">Inventory</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="shipping-returns.html">Shipping & Returns</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="hero">
+        <h1>LR CAR Showroom</h1><br><br><br><br><br><br><br><br>
+    </div>
+    
+     <div >
+    <div class="container">
+            <h2 class="section-title">Exclusive Offers</h2>
+            <div class="grid">
+                <div class="card">
+                    <a href="https://www.carwale.com/rolls-royce-cars/phantom/">
+                        <img src="https://www.carandbike.com/_next/image?url=https%3A%2F%2Fi.ndtvimg.com%2Fi%2F2017-10%2Frolls-royce-phanton-8_827x510_71508233742.jpg&w=3840&q=75" alt="Bugatti Chiron">
+                    </a>
+                    <div>
+                        <h3> Rolls Royce Phantom VIII</h3>
+                    <p>$450,000</p>
+                    <div class="car-details">
+                        <p><strong>Range:</strong> 400 miles</p>
+                        <p><strong>Top Speed:</strong> 155 mph</p>
+                        <p><strong>0-60 mph:</strong> 5.1 seconds</p>
+                        <p><strong>Features:</strong> Handcrafted Luxury, Premium Sound System, Personalized Interior</p>
+                    </div>
+                    <a href="https://www.carwale.com/rolls-royce-cars/phantom/"><button>View Details</button></a>
+                </div>
+                </div>
+                    <div class="card">
+                        <a href="https://www.cardekho.com/tesla/model-s">
+                            <img src="https://platform.cstatic-images.com/xlarge/in/v2/stock_photos/667b4e31-d10d-4509-bc02-a593f5df908e/f041ba64-318c-4dd5-9a5f-b3daffa0a743.png" alt="Bugatti Chiron">
+                        </a>
+                        <div>
+                            <h3>2021 Tesla Model S</h3>
+                        <p>$89,990</p>
+                        <div class="car-details">
+                            <p><strong>Range:</strong> 405 miles</p>
+                            <p><strong>Top Speed:</strong> 200 mph</p>
+                            <p><strong>0-60 mph:</strong> 1.99 seconds</p>
+                            <p><strong>Features:</strong> Autopilot, Full Self-Driving, Premium Audio, Glass Roof, Advanced Climate Control</p>
+                        </div>
+                        <a href="https://www.cardekho.com/tesla/model-s"><button>View Details</button></a>
+                    </div>
+                    </div>
+                    <div class="card">
+                        <a href="https://www.carwale.com/jaguar-cars/f-type/">
+                            <img src="https://images.prismic.io/carwow/35bb1637-f017-4797-a2cf-031930808618_2020+Jaguar+F-Type+front+quarter+moving+2.jpg?auto=format&cs=tinysrgb&fit=crop&q=60&w=750" alt="Bugatti Chiron">
+                        </a>
+                        <div>
+                    <h3> Jaguar F-TYPE</h3>
+                    <p>$79,990</p>
+                    <div class="car-details">
+                        <p><strong>Range:</strong> 396 miles</p>
+                        <p><strong>Top Speed:</strong> 200 mph</p>
+                        <p><strong>0-60 mph:</strong> 1.99 seconds</p>
+                        <p><strong>Features:</strong> Autopilot, Full Self-Driving, Premium Audio</p>
+                    </div>
+                    <a href="Jaguar F-TYPE"><button>View Details</button></a>
+                </div>
+                </div>
+                <div class="card">
+                    <a href="https://www.cardekho.com/aston-martin/db12">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Aston_Martin_DB12_1X7A1921.jpg/1200px-Aston_Martin_DB12_1X7A1921.jpg" alt="Aston Martin DB12">
+                    </a>
+                    <div>
+                    <h3>Aston Martin DB12</h3>
+                    <p>$200,000</p>
+                    <div class="car-details">
+                        <p><strong>Range:</strong> 370 miles</p>
+                        <p><strong>Top Speed:</strong> 211 mph</p>
+                        <p><strong>0-60 mph:</strong> 3.5 seconds</p>
+                        <p><strong>Features:</strong> Handcrafted Interior, Advanced Infotainment System, Adaptive Damping System, Premium Audio</p>
+                    </div>
+                    <a href="https://www.cardekho.com/aston-martin/db12"><button>View Details</button></a>
+                </div>
+                 </div>
+                <div class="card">
+                    <a href="https://www.carwale.com/bugatti-cars/chiron/">
+                        <img src="https://stimg.cardekho.com/images/carexteriorimages/930x620/Bentley/Continental/7771/1708637147871/front-left-side-47.jpg" alt="Avatar">
+                    </a>
+                   <h3> Bentley Continental</h3>
+                    <p>$79,990</p>
+                    <div class="car-details">
+                        <p><strong>Range:</strong> 396 miles</p>
+                        <p><strong>Top Speed:</strong> 200 mph</p>
+                        <p><strong>0-60 mph:</strong> 1.99 seconds</p>
+                        <p><strong>Features:</strong> Autopilot, Full Self-Driving, Premium Audio</p>
+                    </div>
+                    <a href="https://example.com/destination-page"><button>View Details</button></a>
+                </div>
+            </div>
+        </div>
+    <div class="container">
+        <div class="section">
+            <h2 class="section-title">BMW</h2>
+            <div class="grid">
+                <div class="card">
+                    <a href="https://www.cardekho.com/carmodels/BMW/BMW_i8">
+                        <img src="https://i.pinimg.com/originals/4f/6d/1c/4f6d1cac36a27a71c10eafe54c805132.jpg" alt="Avatar">
+                    </a>
+                    <h3>BMW i8</h3>
+                    <p>$147,500</p>
+                    <div class="car-details">
+                        <p><strong>Range:</strong> 330 miles</p>
+                        <p><strong>Top Speed:</strong> 155 mph</p>
+                        <p><strong>0-60 mph:</strong> 4.2 seconds</p>
+                        <p><strong>Features:</strong> Hybrid Powertrain, Carbon Fiber Reinforced Plastic, Laser Headlights, Harman Kardon Sound System</p>
+                    </div>
+                    <a href="https://www.cardekho.com/carmodels/BMW/BMW_i8"><button>View Details</button></a>
+                </div>
+                
+                <div class="card">
+                    <a href="https://www.carwale.com/bmw-cars/3-series/">
+                        <img src="https://stat.overdrive.in/wp-content/uploads/2022/05/P90462503_highRes_the-new-bmw-3-series.jpg" alt="Avatar">
+                    </a>
+                    <h3>BMW 3 Series</h3>
+                    <p>$41,250</p>
+                    <div class="car-details">
+                        <p><strong>Range:</strong> 380 miles</p>
+                        <p><strong>Top Speed:</strong> 155 mph</p>
+                        <p><strong>0-60 mph:</strong> 5.3 seconds</p>
+                        <p><strong>Features:</strong> Adaptive M Suspension, BMW Live Cockpit Professional, Harman Kardon Surround Sound, Active Driving Assistant</p>
+                    </div>
+                    <a href="https://www.carwale.com/bmw-cars/3-series/"><button>View Details</button></a>
+                </div>
+                
+                <div class="card">
+                    <a href="https://www.carwale.com/bmw-cars/x3/">
+                    <img src="https://stat.overdrive.in/wp-content/uploads/2021/06/2021-bmw-x3-facelift-01.jpg" alt="BMW X3">
+                    </a>
+                    <h3>BMW X3</h3>
+                    <p>$45,000</p>
+                    <div class="car-details">
+                        <p><strong>Range:</strong> 500 miles</p>
+                        <p><strong>Top Speed:</strong> 130 mph</p>
+                        <p><strong>0-60 mph:</strong> 6.0 seconds</p>
+                        <p><strong>Features:</strong> xDrive All-Wheel Drive, Panoramic Moonroof, Active Driving Assistant, Apple CarPlay & Android Auto</p>
+                    </div>
+                    <a href="https://www.carwale.com/bmw-cars/x3/"><button>View Details</button></a>
+                </div>
+                
+                <div class="card">
+                    <a href="https://www.carwale.com/bmw-cars/x5-m/">
+                    <img src="https://cdn.motor1.com/images/mgl/pb74WW/s1/bmw-x5-m-mhx5-700-by-manhart.webp" alt="BMW X5 M">
+                    </a>
+                    <h3>BMW X5 M</h3>
+                    <p>$105,100</p>
+                    <div class="car-details">
+                        <p><strong>Range:</strong> 300 miles</p>
+                        <p><strong>Top Speed:</strong> 177 mph</p>
+                        <p><strong>0-60 mph:</strong> 3.8 seconds</p>
+                        <p><strong>Features:</strong> M xDrive All-Wheel Drive, M Sport Seats, Harman Kardon Surround Sound, Live Cockpit Professional</p>
+                    </div>
+                    <a href="https://www.carwale.com/bmw-cars/x5-m/"><button>View Details</button></a>
+                </div>
+                
+                <div class="card">
+                    <a href="https://www.carwale.com/bmw-cars/m8/">
+                    <img src="https://www.topgear.com/sites/default/files/cars-car/image/2019/10/bmw_m8_coupe_fire_red_033.jpg" alt="BMW M8">
+                    </a>
+                    <h3>BMW M8</h3>
+                    <p>$130,000</p>
+                    <div class="car-details">
+                        <p><strong>Range:</strong> 305 miles</p>
+                        <p><strong>Top Speed:</strong> 190 mph</p>
+                        <p><strong>0-60 mph:</strong> 3.0 seconds</p>
+                        <p><strong>Features:</strong> M xDrive All-Wheel Drive, Merino Leather Upholstery, Harman Kardon Surround Sound, Live Cockpit Professional, M Carbon Ceramic Brakes</p>
+                    </div>
+                    <a href="https://www.carwale.com/bmw-cars/m8/"><button>View Details</button></a>
+                </div>
+                
+                <div class="card">
+                    <a href="https://www.carwale.com/bmw-cars/6-series-gt/">
+                    <img src="https://www.bmw.in/content/dam/bmw/common/all-models/6-series/gran-turismo/2021/highlights/bmw-6-series-gran-turismo-gallery-image-individual-02_1920.jpg.asset.1628852738385.jpg" alt="BMW 6 Series Gran Turismo">
+                    </a>
+                    <h3>BMW 6 Series Gran Turismo</h3>
+                    <p>$70,000</p>
+                    <div class="car-details">
+                        <p><strong>Range:</strong> 450 miles</p>
+                        <p><strong>Top Speed:</strong> 155 mph</p>
+                        <p><strong>0-60 mph:</strong> 5.3 seconds</p>
+                        <p><strong>Features:</strong> Panoramic Moonroof, Gesture Control, Wireless Charging, Parking Assistant Plus</p>
+                    </div>
+                    <a href="https://www.carwale.com/bmw-cars/6-series-gt/"><button>View Details</button></a>
+                </div> 
+            </div>
+            </div>
+         </div>
+         <div>
+            <div class="container">
+                <div class="section">
+                    <h2 class="section-title">mercedes-benz</h2>
+                    <div class="grid">
+                        <div class="card">
+                            <a href="https://www.cardekho.com/carmodels/Mercedes-Benz/Mercedes-Benz_AMG_GT">
+                            <img src="https://cdn.motor1.com/images/mgl/XBGv4l/s3/mercedes-amg-gt-gt2-pro.jpg" alt="Mercedes-Benz GT">
+                            </a>
+                            <h3>Benz GT</h3>
+                            <p>$118,600</p>
+                            <div class="car-details">
+                                <p><strong>Engine:</strong> 4.0-liter V8 biturbo</p>
+                                <p><strong>Horsepower:</strong> 523 hp</p>
+                                <p><strong>Top Speed:</strong> 194 mph</p>
+                                <p><strong>0-60 mph:</strong> 3.7 seconds</p>
+                                <p><strong>Features:</strong> 12.3-inch digital instrument cluster, 10.25-inch touchscreen display, AMG performance steering wheel, Burmester surround sound system, Mercedes-Benz User Experience (MBUX)</p>
+                            </div>
+                            <a href="https://www.cardekho.com/carmodels/Mercedes-Benz/Mercedes-Benz_AMG_GT"><button>View Details</button></a>
+                        </div>
+
+                        <div class="card">
+                            <a href="https://www.carwale.com/mercedes-benz-cars/g-class/">
+                            <img src="https://stimg.cardekho.com/images/carexteriorimages/930x620/Mercedes-Benz/Mercedes-Benz-G-Class/6607/front-left-side-47.jpg" alt="Mercedes-Benz G-Class">
+                            </a>
+                            <h3>Mercedes-Benz G-Class</h3>
+                            <p>$130,900</p>
+                            <div class="car-details">
+                                <p><strong>Engine:</strong> 4.0-liter V8 biturbo</p>
+                                <p><strong>Horsepower:</strong> 416-577 hp</p>
+                                <p><strong>Top Speed:</strong> 137-149 mph</p>
+                                <p><strong>0-60 mph:</strong> 5.6-4.5 seconds</p>
+                                <p><strong>Features:</strong> G manufaktur personalization, COMAND® navigation, Burmester® surround sound system, Power front seats with memory, Leather upholstery, Dual-zone automatic climate control</p>
+                            </div>
+                            <a href="https://www.carwale.com/mercedes-benz-cars/g-class/"><button>View Details</button></a>
+                        </div>
+                        
+
+                        <div class="card">
+                            <a href="https://www.cardekho.com/mercedes-benz/eqs-suv">
+                            <img src="https://www.topgear.com/sites/default/files/2023/07/Large-42763-EQSSUV.jpg" alt="Mercedes-Benz EQS SUV">
+                            </a>
+                            <h3>Benz EQS SUV</h3>
+                            <p>$104,400</p>
+                            <div class="car-details">
+                                <p><strong>Range:</strong> 300 miles</p>
+                                <p><strong>Top Speed:</strong> 130 mph</p>
+                                <p><strong>0-60 mph:</strong> 4.1 seconds</p>
+                                <p><strong>Features:</strong> 56-inch Hyperscreen display, Mercedes-Benz User Experience (MBUX), Burmester 3D sound system, Advanced Driver Assistance Systems, Panoramic sunroof, Air suspension</p>
+                            </div>
+                            <a href="https://www.cardekho.com/mercedes-benz/eqs-suv"><button>View Details</button></a>
+                        </div>
+                        <div class="card">
+                            <a href="https://www.carwale.com/mercedes-benz-cars/glc-coupe/">
+                            <img src="https://www.carandbike.com/_next/image?url=https%3A%2F%2Fimages.carandbike.com%2Fcms%2Fblog-feed%2F2023%2F3%2F25%2Farticles%2F2023%2F3%2F3205535%2Farticles%2F2023%2F3%2F3206186%2Farticles%2F2023%2F3%2F3206192%2F2023_mercedes_glc_coupe_26db4cae65.jpg&w=3840&q=75" alt="Mercedes-Benz GLC Coupe">
+                            </a>
+                            <h3>Benz GLC Coupe</h3>
+                            <p>$52,500</p>
+                            <div class="car-details">
+                                <p><strong>Engine:</strong> 2.0-liter inline-4 turbo</p>
+                                <p><strong>Horsepower:</strong> 255 hp</p>
+                                <p><strong>Top Speed:</strong> 130 mph</p>
+                                <p><strong>0-60 mph:</strong> 6.2 seconds</p>
+                                <p><strong>Features:</strong> 10.25-inch touchscreen display, Apple CarPlay & Android Auto, Mercedes-Benz User Experience (MBUX), Burmester surround sound system, 64-color ambient lighting, Advanced Driver Assistance Systems</p>
+                            </div>
+                            <a href="https://www.carwale.com/mercedes-benz-cars/glc-coupe/"><button>View Details</button></a>
+                        </div>
+                       <div class="card">
+                            <a href="https://www.carwale.com/mercedes-benz-cars/gla/">
+                            <img src="https://cdni.autocarindia.com/ExtraImages/20210525124444_New_Mercedes_AMG_GLA_35.jpg" alt="Mercedes-Benz GLA">
+                           </a>
+                            <h3>Benz GLA</h3>
+                            <p>$36,230</p>
+                            <div class="car-details">
+                                <p><strong>Engine:</strong> 2.0-liter inline-4 turbo</p>
+                                <p><strong>Horsepower:</strong> 221 hp</p>
+                                <p><strong>Top Speed:</strong> 130 mph</p>
+                                <p><strong>0-60 mph:</strong> 6.8 seconds</p>
+                                <p><strong>Features:</strong> 7-inch touchscreen display, Apple CarPlay & Android Auto, MBUX infotainment system, Power liftgate, Dual-zone automatic climate control, LED headlights</p>
+                            </div>
+                            <a href="https://www.carwale.com/mercedes-benz-cars/gla/"><button>View Details</button></a>
+                        </div>
+                        <div class="card">
+                            <a href="https://www.carwale.com/mercedes-benz-cars/amg-glc43-coupe/">
+                            <img src="https://www.cnet.com/a/img/resize/8b9419d4f92866ff95979e62a0af72434b5a3ebb/hub/2020/09/24/5fbf0886-f107-489f-affd-8b6e35377f93/2020-mercedes-amg-glc43-coupe-ogi1.jpg?auto=webp&fit=crop&height=675&width=1200" alt="Mercedes-AMG GLC 43 Coupe">
+                            </a>
+                            <h3>AMG GLC 43 Coupe</h3>
+                            <p>$64,950</p>
+                            <div class="car-details">
+                                <p><strong>Engine:</strong> 3.0-liter V6 biturbo</p>
+                                <p><strong>Horsepower:</strong> 385 hp</p>
+                                <p><strong>Top Speed:</strong> 155 mph</p>
+                                <p><strong>0-60 mph:</strong> 4.7 seconds</p>
+                                <p><strong>Features:</strong> AMG Performance 4MATIC+ all-wheel drive, AMG SPEEDSHIFT TCT 9-speed transmission, AMG DYNAMIC SELECT drive modes, 12.3-inch digital instrument cluster, 10.25-inch touchscreen display, AMG sport exhaust system</p>
+                            </div>
+                            <a href="https://www.carwale.com/mercedes-benz-cars/amg-glc43-coupe/"><button>View Details</button></a>
+                         </div>
+                    </div>
+                </div>
+
+        <div class="container">
+            <div class="section">
+                <h2 class="section-title">AUDI</h2>
+                <div class="grid">
+                    <div class="card">
+                        <a href="https://www.carwale.com/audi-cars/r8/">
+                        <img src="https://hips.hearstapps.com/hmg-prod/images/2023-audi-r8-gt-front-three-quarters-motion-3-1664827965.jpg?crop=0.595xw:0.668xh;0.0705xw,0.224xh&resize=768:*" alt="Audi R8">
+                        </a>
+                        <h3>Audi R8</h3>
+                        <p>$169,900</p>
+                        <div class="car-details">
+                            <p><strong>Range:</strong> N/A</p>
+                            <p><strong>Top Speed:</strong> 205 mph</p>
+                            <p><strong>0-60 mph:</strong> 3.2 seconds</p>
+                            <p><strong>Features:</strong> Audi Virtual Cockpit, Audi Smartphone Interface, Bang & Olufsen Sound System, LED Headlights with Audi Laser Light Technology</p>
+                        </div>
+                        <a href="https://www.carwale.com/audi-cars/r8/"><button>View Details</button></a>
+                    </div>
+                    
+                    <div class="card">
+                        <a href="https://www.carwale.com/news/newgen-audi-s3-breaks-cover-with-306bhp/">
+                        <img src="https://media.autoexpress.co.uk/image/private/s--X-WVjvBW--/f_auto,t_content-image-full-desktop@1/v1713783279/evo/2024/4/2024%20Audi%20S3%20review%20evo-20.jpg" alt="Audi S3">
+                        </a>
+                        <h3>Audi S3</h3>
+                        <p>$43,000</p>
+                        <div class="car-details">
+                            <p><strong>Range:</strong> N/A</p>
+                            <p><strong>Top Speed:</strong> 155 mph</p>
+                            <p><strong>0-60 mph:</strong> 4.6 seconds</p>
+                            <p><strong>Features:</strong> Audi Virtual Cockpit, Bang & Olufsen Sound System, Audi Smartphone Interface, S Sport Suspension</p>
+                        </div>
+                        <a href="https://www.carwale.com/news/newgen-audi-s3-breaks-cover-with-306bhp/"><button>View Details</button></a>
+                    </div>
+                    
+                    <div class="card">
+                        <a href="https://www.cardekho.com/audi/q3">
+                        <img src="https://www.carsaar.com/wp-content/uploads/2018/11/New-Audi-Q3-Silver-Front-Right-Static.jpg" alt="Audi Q3">
+                        </a>
+                        <h3>Audi Q3</h3>
+                        <p>$36,000</p>
+                        <div class="car-details">
+                            <p><strong>Engine:</strong> 2.0-liter turbocharged inline-4</p>
+                            <p><strong>Horsepower:</strong> 184-228 hp</p>
+                            <p><strong>Top Speed:</strong> 130 mph</p>
+                            <p><strong>0-60 mph:</strong> 6.3-8.6 seconds</p>
+                            <p><strong>Features:</strong> Audi Virtual Cockpit, MMI Touch Display, Apple CarPlay & Android Auto, Panoramic Sunroof</p>
+                        </div>
+                        <a href="https://www.cardekho.com/audi/q3"><button>View Details</button></a>
+                    </div>
+                    
+                    
+                    <div class="card">
+                        <a href="https://www.cardekho.com/audi/q6-e-tron">
+                        <img src="https://imgd.aeplcdn.com/370x208/n/cw/ec/173159/audi-e-tron-right-front-three-quarter0.jpeg?isig=0&q=80" alt="Audi Q6 e-tron">
+                        </a>
+                        <h3>Audi Q6 e-tron</h3>
+                        <p>$60,000</p>
+                        <div class="car-details">
+                            <p><strong>Range:</strong> 300 miles</p>
+                            <p><strong>Top Speed:</strong> 124 mph</p>
+                            <p><strong>0-60 mph:</strong> 6.3 seconds</p>
+                            <p><strong>Features:</strong> Quattro all-wheel drive, Virtual Cockpit Plus, MMI touch display, Audi Pre Sense Safety Technologies</p>
+                        </div>
+                        <a href="https://www.cardekho.com/audi/q6-e-tron"><button>View Details</button></a>
+                    </div>
+                    <div class="card">
+                        <a href="https://www.cardekho.com/audi/a1">
+                        <img src="https://imgd.aeplcdn.com/1200x900/cw/ec/34900/Audi-A3-Exterior-129470.jpg?wm=0" alt="Audi A1">
+                        </a>
+                        <h3>Audi A1</h3>
+                        <p>$25,000</p>
+                        <div class="car-details">
+                            <p><strong>Engine:</strong> 1.0-liter turbocharged inline-3</p>
+                            <p><strong>Horsepower:</strong> 95-150 hp</p>
+                            <p><strong>Top Speed:</strong> 124-147 mph</p>
+                            <p><strong>0-60 mph:</strong> 8.8-9.5 seconds</p>
+                            <p><strong>Features:</strong> Audi Virtual Cockpit, MMI touch display, Apple CarPlay & Android Auto, LED headlights</p>
+                        </div>
+                        <a href="https://www.cardekho.com/audi/a1"><button>View Details</button></a>
+                    </div>
+                    <div class="card">
+                        <a href="https://www.cardekho.com/audi/q7">
+                        <img src="https://cdn.motor1.com/images/mgl/Kb1wGM/s1/4x3/next-generation-audi-q7-test-mule-spy-photo.webp" alt="Audi Q7">
+                        </a>
+                        <h3>Audi Q7</h3>
+                        <p>$54,950</p>
+                        <div class="car-details">
+                            <p><strong>Engine:</strong> 2.0-liter turbocharged inline-4 / 3.0-liter turbocharged V6</p>
+                            <p><strong>Horsepower:</strong> 248-335 hp</p>
+                            <p><strong>Top Speed:</strong> 130 mph</p>
+                            <p><strong>0-60 mph:</strong> 5.7-7.1 seconds</p>
+                            <p><strong>Features:</strong> MMI touch response system, Virtual Cockpit Plus, Audi Pre Sense Safety Technologies, Panoramic Sunroof</p>
+                        </div>
+                        <a href="https://www.cardekho.com/audi/q7"><button>View Details</button></a>
+                    </div>
+                </div> 
+             </div>
+
+        <div class="container">
+        <div class="section">
+            <h2 class="section-title">FORD</h2>
+            <div class="grid">
+                <div class="card">
+                    <a href="https://www.carwale.com/ford-cars/mustang/gt-fastback-50l-v8/">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/0/01/Ford_Mustang_GT%2C_20.5.2017_%282%29.jpg" alt="Ford Mustang GT">
+                    </a>
+                    <h3>Ford Mustang GT</h3>
+                    <p>$42,145</p>
+                    <div class="car-details">
+                        <p><strong>Engine:</strong> 5.0-liter V8</p>
+                        <p><strong>Horsepower:</strong> 460 hp</p>
+                        <p><strong>Top Speed:</strong> 155 mph</p>
+                        <p><strong>0-60 mph:</strong> 4.2 seconds</p>
+                        <p><strong>Features:</strong> SYNC 3 infotainment system, Apple CarPlay & Android Auto, Brembo brakes, MagneRide damping system</p>
+                    </div>
+                    <a href="https://www.carwale.com/ford-cars/mustang/gt-fastback-50l-v8/"><button>View Details</button></a>
+                </div>
+                
+                <div class="card">
+                    <a href="https://www.cardekho.com/india-car-news/bims-2024-ford-endeavour-everest-for-thailand-explained-in-12-images-32256.htm">
+                    <img src="https://images.tv9hindi.com/wp-content/uploads/2024/04/ford-everest.jpg" alt="Ford Everest">
+                    </a>
+                    <h3>Ford Everest</h3>
+                    <p>$45,000</p>
+                    <div class="car-details">
+                        <p><strong>Engine:</strong> 2.0-liter turbocharged inline-4 / 3.2-liter turbocharged inline-5</p>
+                        <p><strong>Horsepower:</strong> 158-210 hp</p>
+                        <p><strong>Top Speed:</strong> N/A</p>
+                        <p><strong>0-60 mph:</strong> N/A</p>
+                        <p><strong>Features:</strong> SYNC 3 infotainment system, Ford Co-Pilot360 safety technology, Terrain Management System, Panoramic sunroof</p>
+                    </div>
+                    <a href="https://www.cardekho.com/india-car-news/bims-2024-ford-endeavour-everest-for-thailand-explained-in-12-images-32256.htm"><button>View Details</button></a>
+                </div>
+                <div class="card">
+                    <a href="https://www.edmunds.com/ford/bronco/">
+                    <img src="https://cdn.motor1.com/images/mgl/J4RM6/s1/2021-ford-bronco.jpg" alt="Ford Bronco">
+                    </a>
+                    <h3>Ford Bronco</h3>
+                    <p>$30,000</p>
+                    <div class="car-details">
+                        <p><strong>Engine:</strong> 2.3-liter turbocharged inline-4 / 2.7-liter turbocharged V6</p>
+                        <p><strong>Horsepower:</strong> 270-310 hp</p>
+                        <p><strong>Top Speed:</strong> N/A</p>
+                        <p><strong>0-60 mph:</strong> N/A</p>
+                        <p><strong>Features:</strong> Off-road capabilities, Removable top and doors, SYNC 4 infotainment system, Ford Co-Pilot360 safety technology</p>
+                    </div>
+                    <a href="https://www.edmunds.com/ford/bronco/"><button>View Details</button></a>
+                </div>
+                
+                <div class="card">
+                    <a href="https://www.carwale.com/ford-cars/raptor/f-150-4wd-50-ti-vct/">
+                    <img src="https://static0.topspeedimages.com/wordpress/wp-content/uploads/2023/09/resize_2024-ford-f-150-raptor_11.jpg" alt="Ford F-150">
+                    </a>
+                    <h3>Ford F-150</h3>
+                    <p>$28,940</p>
+                    <div class="car-details">
+                        <p><strong>Engine:</strong> 3.3-liter V6 / 5.0-liter V8 / 3.5-liter EcoBoost V6 / 3.0-liter Power Stroke Turbo Diesel V6 / 3.5-liter PowerBoost Full Hybrid V6</p>
+                        <p><strong>Horsepower:</strong> 290-400 hp</p>
+                        <p><strong>Top Speed:</strong> N/A</p>
+                        <p><strong>0-60 mph:</strong> N/A</p>
+                        <p><strong>Features:</strong> SYNC 4 infotainment system, Pro Power Onboard Generator, Ford Co-Pilot360 safety technology, FordPass Connect</p>
+                    </div>
+                    <a href="https://www.carwale.com/ford-cars/raptor/f-150-4wd-50-ti-vct/"><button>View Details</button></a>
+                </div>
+
+                <div class="card">
+                    <a href="https://cars.usnews.com/cars-trucks/ford/escape">
+                    <img src="https://www.ford.com/is/image/content/dam/vdm_ford/live/en_us/ford/nameplate/escape/2024/collections/dm/24_FRD_ESP_F2A0033_stln_elt_rprd.tif?croppathe=1_4x3&wid=900" alt="Ford Escape">
+                    </a>
+                    <h3>Ford Escape</h3>
+                    <p>$27,000</p>
+                    <div class="car-details">
+                        <p><strong>Engine:</strong> 1.5-liter EcoBoost inline-3 / 2.0-liter EcoBoost inline-4 / 2.5-liter hybrid inline-4</p>
+                        <p><strong>Horsepower:</strong> 181-250 hp</p>
+                        <p><strong>Top Speed:</strong> 121 mph</p>
+                        <p><strong>0-60 mph:</strong> 5.7-8.4 seconds</p>
+                        <p><strong>Features:</strong> SYNC 3 infotainment system, Ford Co-Pilot360 safety technology, Apple CarPlay & Android Auto, Panoramic sunroof</p>
+                    </div>
+                    <a href="https://cars.usnews.com/cars-trucks/ford/escape"><button>View Details</button></a>
+                </div>
+                
+                <div class="card">
+                    <a href="https://www.edmunds.com/ford/expedition/">
+                    <img src="https://img.philkotse.com/crop/600x338/2020/08/07/DN77gTEr/ford-expedition-cesar-miguel-06192020-4-8d23.jpg" alt="Ford Expedition">
+                    </a>
+                    <h3>Ford Expedition</h3>
+                    <p>$52,000</p>
+                    <div class="car-details">
+                        <p><strong>Engine:</strong> 3.5-liter EcoBoost V6</p>
+                        <p><strong>Horsepower:</strong> 375-400 hp</p>
+                        <p><strong>Top Speed:</strong> 115 mph</p>
+                        <p><strong>0-60 mph:</strong> 5.7 seconds</p>
+                        <p><strong>Features:</strong> SYNC 4A infotainment system, Ford Co-Pilot360 safety technology, Panoramic Vista Roof, Pro Trailer Backup Assist</p>
+                    </div>
+                    <a href="https://www.edmunds.com/ford/expedition/"><button>View Details</button></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title"> TATA</h2>
+            <div class="grid">
+                <div class="card">
+                    <a href="https://www.carwale.com/tata-cars/nexon-ev-max/">
+                    <img src="https://cdni.autocarindia.com/Stuff/Uploads/ReviewImages/637883778429275188_tata-nexon-ev-max-review-1.jpg" alt="Tata Nexon EV Max">
+                    </a>
+                    <h3>Tata Nexon EV Max</h3>
+                    <p>$42,000</p>
+                    <div class="car-details">
+                        <p><strong>Range:</strong> 310 miles</p>
+                        <p><strong>Top Speed:</strong> 120 mph</p>
+                        <p><strong>0-60 mph:</strong> 9.9 seconds</p>
+                        <p><strong>Features:</strong> Ziptron Electric Powertrain, 7-inch touchscreen infotainment system, Apple CarPlay & Android Auto, Harman sound system, Electric sunroof, Remote vehicle control</p>
+                    </div>
+                    <a href="https://www.carwale.com/tata-cars/nexon-ev-max/"><button>View Details</button></a>
+                </div>
+                
+                <div class="card">
+                    <a href="https://www.carwale.com/tata-cars/safari/">
+                    <img src="https://images.news18.com/ibnlive/uploads/2021/07/1626690335_tata-safari-off-road-rendering-rear-zephyr-designz.jpg?impolicy=website&width=640&height=480" alt="Tata Safari">
+                    </a>
+                    <h3>Tata Safari</h3>
+                    <p>$25,000</p>
+                    <div class="car-details">
+                        <p><strong>Engine:</strong> 2.0-liter turbocharged diesel</p>
+                        <p><strong>Horsepower:</strong> 170 hp</p>
+                        <p><strong>Top Speed:</strong> 115 mph</p>
+                        <p><strong>0-60 mph:</strong> 12 seconds</p>
+                        <p><strong>Features:</strong> 8.8-inch touchscreen infotainment system, Apple CarPlay & Android Auto, Panoramic sunroof, Captain seats, Cruise control</p>
+                    </div>
+                    <a href="https://www.carwale.com/tata-cars/safari/"><button>View Details</button></a>
+                </div>
+                
+                <div class="card">
+                    <a href="https://www.carwale.com/tata-cars/nexon-ev/">
+                    <img src="https://images.carandbike.com/cms/Tata_Nexon_EV_facelift_21_5b0877c2be.jpg" alt="Tata Nexon EV">
+                    </a>
+                    <h3>Tata Nexon EV</h3>
+                    <p>$40,000</p>
+                    <div class="car-details">
+                        <p><strong>Range:</strong> 300 miles</p>
+                        <p><strong>Top Speed:</strong> 120 mph</p>
+                        <p><strong>0-60 mph:</strong> 9.9 seconds</p>
+                        <p><strong>Features:</strong> Ziptron Electric Powertrain, 7-inch touchscreen infotainment system, Apple CarPlay & Android Auto, Harman sound system, Electric sunroof, Remote vehicle control</p>
+                    </div>
+                    <a href="https://www.carwale.com/tata-cars/nexon-ev/"><button>View Details</button></a>
+                </div>
+                
+                <div class="card">
+                    <a href="https://www.carwale.com/tata-cars/avinya/">
+                    <img src="https://www.tata.com/content/dam/tata/images/newsroom/business/desktop/avinya_banner_desktop_1920x1080.jpg" alt="Tata Avinya">
+                    </a>
+                    <h3>Tata Avinya</h3>
+                    <p>$45,000</p>
+                    <div class="car-details">
+                        <p><strong>Range:</strong> 350 miles</p>
+                        <p><strong>Top Speed:</strong> 130 mph</p>
+                        <p><strong>0-60 mph:</strong> 6.5 seconds</p>
+                        <p><strong>Features:</strong> Next-gen electric powertrain, Advanced driver assistance systems, 12-inch touchscreen infotainment system, Wireless smartphone charging, Surround sound system, Panoramic sunroof</p>
+                    </div>
+                    <a href="https://www.carwale.com/tata-cars/avinya/"><button>View Details</button></a>
+                </div>
+                
+                <div class="card">
+                    <a href="https://www.carwale.com/tata-cars/harrier/">
+                    <img src="https://stimg.cardekho.com/images/carexteriorimages/930x620/Tata/Harrier/9368/1697532960290/front-left-side-47.jpg    " alt="Tata Harrier">
+                    </a>
+                    <h3>Tata Harrier</h3>
+                    <p>$30,000</p>
+                    <div class="car-details">
+                        <p><strong>Engine:</strong> 2.0-liter turbocharged diesel</p>
+                        <p><strong>Horsepower:</strong> 168 hp</p>
+                        <p><strong>Top Speed:</strong> 115 mph</p>
+                        <p><strong>0-60 mph:</strong> 9.7 seconds</p>
+                        <p><strong>Features:</strong> 8.8-inch touchscreen infotainment system, Apple CarPlay & Android Auto, Panoramic sunroof, Rear parking camera with sensors, LED DRLs, Cruise control</p>
+                    </div>
+                    <a href="https://www.carwale.com/tata-cars/harrier/"><button>View Details</button></a>
+                </div>
+                
+                <div class="card">
+                    <a href="https://www.carwale.com/tata-cars/nexon/">
+                    <img src="https://media.zigcdn.com/media/content/2023/Sep/cover_64f8186847e8c.jpg?tr=w-1200" alt="Tata Nexon">
+                    </a>
+                    <h3>Tata nexon</h3>
+                    <p>$25,000</p>
+                    <div class="car-details">
+                        <p><strong>Engine:</strong> 1.2-liter turbocharged petrol / 1.5-liter turbocharged diesel</p>
+                        <p><strong>Horsepower:</strong> 118-108 hp</p>
+                        <p><strong>Top Speed:</strong> 120 mph</p>
+                        <p><strong>0-60 mph:</strong> 11-12 seconds</p>
+                        <p><strong>Features:</strong> 7-inch touchscreen infotainment system, Apple CarPlay & Android Auto, Multi-drive modes, Rear parking camera, Electric sunroof, Cruise control</p>
+                    </div>
+                    <a href="https://www.carwale.com/tata-cars/nexon/"><button>View Details</button></a>
+                </div><br><br><br><br>
+            </div>
+            <a href="https://www.meesho.com/gowns-women/pl/3l9" class="cta-button"></a>
+        </div>
+
+    <footer class="footer">
+        <div>
+            <a href="1.html">Shop</a>
+            <a href="66.html">About Us</a>
+            <a href="5.html">Contact</a>
+            <a href="#">FAQ</a>
+            <a href="#">Shipping & Returns</a><br>
+        </div>
+        <div>           <br>    
+            <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/1200px-Facebook_f_logo_%282019%29.svg.png" alt="Facebook" style="width: 24px;"></a>
+            <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/800px-Instagram_logo_2022.svg.png" alt="Instagram" style="width: 24px;"></a>
+            <a href="#"><img src="https://cdn.icon-icons.com/icons2/535/PNG/512/Pinterest-Icon_icon-icons.com_52901.png" alt="Pinterest" style="width: 24px;"></a>
+        </div>
+        <div>
+            <p>Address: 123 Car Street, Auto City, Country</p>
+            <p>Phone:+123 456 7890</p>
+            <p>Email: info@carshowroom.com</p>
+        </div>
+    </footer>
+
+</body>
+</html>
